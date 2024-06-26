@@ -18,8 +18,8 @@ void binaryRepresentation(int value, int flag)
 void swapByte(int value, int swapValue)
 {
     binaryRepresentation(swapValue, 0);
-    int thirdByte = (swapValue >> 8) & 0xFF;
-    value = (value & 0xFFFF00FF) | (thirdByte << 8);
+    int thirdByte = (swapValue >> 16) & 0xFF;
+    value = (value & 0xFF00FFFF) | (thirdByte << 16);
     binaryRepresentation(value, 0);
 }
 
