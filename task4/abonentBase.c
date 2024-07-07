@@ -3,7 +3,7 @@
 #include <termios.h>
 #include <stdlib.h>
 
-#define STRUCT_SIZE 2
+#define STRUCT_SIZE 100
 
 struct abonent {
     char name[20];
