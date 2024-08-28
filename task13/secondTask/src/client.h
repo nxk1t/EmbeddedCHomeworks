@@ -1,5 +1,5 @@
-#ifndef __LIB_H__
-#define __LIB_H__
+#ifndef __CHAT_H__
+#define __CHAT_H__
 
 #include <stdio.h>
 #include <string.h>
